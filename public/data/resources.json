@@ -1,9 +1,9 @@
 {
-  "title": "GDG DevFest Season 2018",
+  "title": "Stationery Fest 2024",
   "description": "Join the community, learn new things!",
   "image": "images/social-share.jpg",
-  "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "October 12-13, 2018",
+  "keywords": "stationery, japanese stationery, fountain pens, notebook, pen, pencil, art, journal, art supplies, hobby, meetup, new york, nyc",
+  "dates": "August 7-9, 2024",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
   "share": "Share",
   "followOur": "Follow our",
@@ -147,8 +147,8 @@
     },
     "statisticsBlock": {
       "attendees": {
-        "label": "Attendees",
-        "number": "900"
+        "label": "Meet Ups",
+        "number": "10"
       },
       "days": {
         "label": "Days",
@@ -159,8 +159,8 @@
         "number": "50"
       },
       "tracks": {
-        "label": "Tracks",
-        "number": "4"
+        "label": "Happy Hour",
+        "number": "2"
       }
     }
   },

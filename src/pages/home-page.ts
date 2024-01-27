@@ -164,7 +164,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         hide-logo
       >
         <div class="home-content" layout vertical center>
-          <lazy-image class="hero-logo" src="/images/logo.svg" alt="[[siteTitle]]"></lazy-image>
+          <lazy-image class="hero-logo" src="/images/logo.jpg" alt="[[siteTitle]]"></lazy-image>
 
           <div class="info-items">
             <div class="info-item">[[city]]. [[dates]]</div>
@@ -172,14 +172,16 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           </div>
 
           <div class="action-buttons" layout horizontal center-justified wrap>
-            <paper-button class="watch-video" on-click="playVideo">
-              <iron-icon icon="hoverboard:movie"></iron-icon>
-              [[viewHighlights]]
-            </paper-button>
-            <paper-button on-click="scrollToTickets" primary invert>
-              <iron-icon icon="hoverboard:ticket"></iron-icon>
-              [[buyTicket]]
-            </paper-button>
+<!--            TODO: put a link to video -->
+<!--            <paper-button class="watch-video" on-click="playVideo">-->
+<!--              <iron-icon icon="hoverboard:movie"></iron-icon>-->
+<!--              [[viewHighlights]]-->
+<!--            </paper-button>-->
+<!--            TODO: re-enable ticket link -->
+<!--            <paper-button on-click="scrollToTickets" primary invert>-->
+<!--              <iron-icon icon="hoverboard:ticket"></iron-icon>-->
+<!--              [[buyTicket]]-->
+<!--            </paper-button>-->
           </div>
 
           <div class="scroll-down" on-click="scrollNextBlock">
