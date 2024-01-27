@@ -2,9 +2,9 @@ import { css } from 'lit';
 
 export const theme = css`
   :host {
-    --dark-primary-color: #512da8;
-    --default-primary-color: #673ab7;
-    --focused-color: #311b92;
+    --dark-primary-color: #1e453e;
+    --default-primary-color: #2c4c3b;
+    --focused-color: #306844;
     --light-primary-color: #d1c4e9;
     --text-primary-color: #fff;
     --accent-color: #ff5252;
