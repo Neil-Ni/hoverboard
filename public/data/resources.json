@@ -206,10 +206,10 @@
     "previousYear": "Year"
   },
   "speakersBlock": {
-    "title": "Speakers",
+    "title": "Exhibitors",
     "callToAction": {
-      "label": "View all speakers",
-      "link": "/speakers"
+      "label": "View all exhibitors",
+      "link": "/exhibitors"
     }
   },
   "previousSpeakersBlock": {

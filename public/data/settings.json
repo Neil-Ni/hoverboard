@@ -24,9 +24,9 @@
       "label": "Home"
     },
     {
-      "route": "speakers",
-      "permalink": "/speakers",
-      "label": "Speakers"
+      "route": "exhibitors",
+      "permalink": "/exhibitors",
+      "label": "Exhibitors"
     },
     {
       "route": "schedule",
@@ -39,9 +39,9 @@
       "label": "Team"
     },
     {
-      "route": "blog",
-      "permalink": "/blog",
-      "label": "Blog"
+      "route": "news",
+      "permalink": "/news",
+      "label": "News"
     }
   ],
   "heroSettings": {

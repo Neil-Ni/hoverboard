@@ -42,7 +42,7 @@ const ROUTES: Route[] = [
     },
   },
   {
-    path: '/blog',
+    path: '/news',
     children: [
       {
         path: '',
@@ -101,7 +101,7 @@ const ROUTES: Route[] = [
     },
   },
   {
-    path: '/speakers',
+    path: '/exhibitors',
     children: [
       {
         path: '',
