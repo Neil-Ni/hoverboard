@@ -121,20 +121,21 @@
   },
   "location": {
     "label": "Location",
-    "name": "Planeta kino",
-    "city": "Lviv",
-    "short": "Lviv, Ukraine",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
+    "name": "New York",
+    "city": "New York City",
+    "short": "NY",
+    "address": "67 West Street, Brooklyn, 11222",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": 40.7286148,
+      "longitude": -73.9598254,
       "zoom": 5
     },
     "mapCenter": {
-      "latitude": 48,
-      "longitude": 8
+      "latitude": 40,
+      "longitude": -73,
+      "zoom": 20
     },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+    "description": "The Greenpoint Loft facility includes the main loft space (5000 s.f.), mezzanine level (1000 s.f.) and a rooftop that boasts a magnificent view of the Manhattan skyline overlooking the East River."
   },
   "socialNetwork": {
     "follow": [
