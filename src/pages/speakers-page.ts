@@ -196,6 +196,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
         items-count="[[contentLoaders.speakers.itemsCount]]"
         hidden$="[[contentLoaderVisibility]]"
       ></content-loader>
+<!--      TODO: Add apply form right here -->
 
       <div class="container">
         <template is="dom-repeat" items="[[speakersToRender]]" as="speaker">
@@ -253,7 +254,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
         </template>
       </div>
 
-      <previous-speakers-block></previous-speakers-block>
+<!--      <previous-speakers-block></previous-speakers-block>-->
 
       <footer-block></footer-block>
     `;

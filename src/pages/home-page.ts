@@ -172,11 +172,10 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           </div>
 
           <div class="action-buttons" layout horizontal center-justified wrap>
-<!--            TODO: put a link to video -->
-<!--            <paper-button class="watch-video" on-click="playVideo">-->
-<!--              <iron-icon icon="hoverboard:movie"></iron-icon>-->
-<!--              [[viewHighlights]]-->
-<!--            </paper-button>-->
+            <paper-button class="watch-video" on-click="playVideo">
+              <iron-icon icon="hoverboard:movie"></iron-icon>
+              [[viewHighlights]]
+            </paper-button>
 <!--            TODO: re-enable ticket link -->
 <!--            <paper-button on-click="scrollToTickets" primary invert>-->
 <!--              <iron-icon icon="hoverboard:ticket"></iron-icon>-->
@@ -254,13 +253,13 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       <about-block></about-block>
       <speakers-block></speakers-block>
       <subscribe-block></subscribe-block>
-      <tickets-block id="tickets-block"></tickets-block>
-      <gallery-block></gallery-block>
-      <about-organizer-block></about-organizer-block>
-      <featured-videos></featured-videos>
-      <latest-posts-block></latest-posts-block>
+<!--      <tickets-block id="tickets-block"></tickets-block>-->
+<!--      <gallery-block></gallery-block>-->
+<!--      <about-organizer-block></about-organizer-block>-->
+<!--      <featured-videos></featured-videos>-->
+<!--      <latest-posts-block></latest-posts-block>-->
       <map-block></map-block>
-      <partners-block></partners-block>
+<!--      <partners-block></partners-block>-->
       <footer-block></footer-block>
     `;
   }
