@@ -177,14 +177,14 @@
   },
   "subscribeBlock": {
     "callToAction": {
-      "description": "Get notified about the important conference updates",
+      "description": "Get notified about the important updates",
       "label": "Subscribe"
     },
     "yourEmail": "Your email",
     "emailAddress": "Email Address",
     "firstName": "First Name",
     "lastName": "Last Name",
-    "formTitle": "Get the latest updates, insights and news about GDG DevFest Ukraine sent to your inbox.",
+    "formTitle": "Get the latest updates, news about Stationery Fest sent to your inbox.",
     "emailRequired": "Please enter a valid email address.",
     "fieldRequired": "Field required.",
     "subscribe": "Subscribe",
