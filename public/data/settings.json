@@ -1,9 +1,9 @@
 {
   "organizer": {
-    "name": "Yoseka Stationery",
+    "name": "Stationery Fest 2024",
     "twitter": "YosekaBox",
-    "blog": "https://yosekastationery.com/blogs/news",
-    "url": "https://yosekastationery.com/pages/about-us/"
+    "blog": "/news",
+    "url": "/"
   },
   "startDate": "2024-08-07T09:00:00+03:00",
   "endDate": "2024-08-09T19:00:00+03:00",
