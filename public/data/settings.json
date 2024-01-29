@@ -57,9 +57,9 @@
       "fontColor": "#424242"
     },
     "speakers": {
-      "title": "Exhibitors",
+      "title": "Exhibitors (TBD)",
       "metaDescription": "Introducing exhibitors",
-      "description": "Introducing exhibitors",
+      "description": "Introducing exhibitors. Many exhibitors are confirming our details. Please subscribe to newsletter for the latest updates!",
       "background": {
         "color": "#FFF"
       },
@@ -74,7 +74,7 @@
       "fontColor": "#424242"
     },
     "schedule": {
-      "title": "Schedule",
+      "title": "Schedule (TBD)",
       "metaDescription": "Choose your sessions to visit",
       "background": {
         "color": "#fff"
