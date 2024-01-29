@@ -37,6 +37,11 @@
       "route": "news",
       "permalink": "/news",
       "label": "News"
+    },
+    {
+      "route": "about",
+      "permalink": "/about",
+      "label": "About"
     }
   ],
   "heroSettings": {
@@ -108,6 +113,14 @@
     "notFound": {
       "title": "Not Found",
       "metaDescription": "Page not found",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    },
+    "about": {
+      "title": "About Stationery Fest 2024",
+      "metaDescription": "About Stationery Fest 2024",
       "background": {
         "color": "#fff"
       },

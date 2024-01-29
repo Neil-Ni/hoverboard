@@ -153,6 +153,13 @@ const ROUTES: Route[] = [
     },
   },
   {
+    path: '/about',
+    component: 'about-page',
+    action: async () => {
+      await import('./pages/about-page.js');
+    },
+  },
+  {
     path: '/coc',
     component: 'coc-page',
     action: async () => {
