@@ -54,11 +54,6 @@
       "title": "Event Resources",
       "links": [
         {
-          "name": "Media Kit",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
-          "newTab": true
-        },
-        {
           "name": "FAQs",
           "url": "/faq",
           "newTab": false
@@ -97,15 +92,15 @@
       },
       "days": {
         "label": "Days",
-        "number": "2"
+        "number": "3"
       },
       "sessions": {
-        "label": "Sessions",
+        "label": "Exhibitors",
         "number": "50"
       },
       "tracks": {
-        "label": "Happy Hour",
-        "number": "2"
+        "label": "Workshops",
+        "number": "5"
       }
     }
   },
@@ -262,24 +257,6 @@
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
-        }
-      },
-      {
-        "title": "What is a GDG?",
-        "description": "A Google Developer Group is a community of volunteers who create exciting projects and share experiences about Google technologies.",
-        "callToAction": {
-          "label": "Read more",
-          "link": "https://developers.google.com/groups/",
-          "newTab": true
-        }
-      },
-      {
-        "title": "What is DevFest?",
-        "description": "DevFests are community-led developer events hosted by Google Developer Groups around the globe.",
-        "callToAction": {
-          "label": "Read more",
-          "link": "https://devfest.withgoogle.com/",
-          "newTab": true
         }
       }
     ]
