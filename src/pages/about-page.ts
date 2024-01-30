@@ -5,6 +5,7 @@ import '../components/markdown/remote-markdown';
 import '../elements/footer-block';
 import { about, heroSettings } from '../utils/data';
 import { updateMetadata } from '../utils/metadata';
+import '../elements/subscribe-block';
 
 @customElement('about-page')
 export class FaqPage extends PolymerElement {
@@ -20,6 +21,7 @@ export class FaqPage extends PolymerElement {
 
       <remote-markdown toc path="[[source]]"></remote-markdown>
 
+      <subscribe-block></subscribe-block>
       <footer-block></footer-block>
     `;
   }

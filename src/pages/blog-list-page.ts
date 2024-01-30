@@ -19,6 +19,7 @@ import { initialUiState } from '../store/ui/state';
 import { contentLoaders, heroSettings } from '../utils/data';
 import { getDate } from '../utils/dates';
 import { updateMetadata } from '../utils/metadata';
+import '../elements/subscribe-block';
 
 @customElement('blog-list-page')
 export class BlogListPage extends ReduxMixin(PolymerElement) {
@@ -160,6 +161,8 @@ export class BlogListPage extends ReduxMixin(PolymerElement) {
       <div class="container-narrow">
         <posts-list posts="[[posts.data]]"></posts-list>
       </div>
+
+      <subscribe-block></subscribe-block>
 
       <footer-block></footer-block>
     `;
