@@ -54,11 +54,11 @@ export class HomePage extends ReduxMixin(PolymerElement) {
 
         .hero-logo {
           --lazy-image-width: 100%;
-          --lazy-image-height: 120px;
+          --lazy-image-height: 300px;
           width: var(--lazy-image-width);
           height: var(--lazy-image-height);
           max-width: 240px;
-          max-height: 76px;
+          max-height: 230px;
         }
 
         .info-items {
@@ -168,8 +168,10 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           <lazy-image class="hero-logo" src="/images/logo.svg" alt="[[siteTitle]]"></lazy-image>
 
           <div class="info-items">
-            <div class="info-item">[[city]]. [[dates]]</div>
+            <div class="info-item">[[city]], [[state]]</div>
+            <div class="info-item">[[dates]]</div>
             <div class="info-item">[[heroSettings.description]]</div>
+            <div class="info-item">[[heroSettings.subDescription]]</div>
           </div>
 
           <div class="action-buttons" layout horizontal center-justified wrap>
@@ -269,6 +271,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
   }
 
   private city = location.city;
+  private state = location.short;
   private siteTitle = title;
   private dates = dates;
   private viewHighlights = viewHighlights;

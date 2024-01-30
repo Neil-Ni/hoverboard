@@ -46,7 +46,8 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "Join the community, learn new things!",
+      "description": "An Interactive Experience with Stationery Brands",
+      "subDescription": "Tickets Available",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"
@@ -131,7 +132,7 @@
   "location": {
     "label": "Location",
     "name": "New York",
-    "city": "New York City",
+    "city": "Brooklyn",
     "short": "NY",
     "address": "67 West Street, Brooklyn, 11222",
     "pointer": {
