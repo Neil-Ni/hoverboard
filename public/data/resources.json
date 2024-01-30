@@ -162,10 +162,10 @@
     }
   },
   "galleryBlock": {
-    "title": "Stationery Fest highlights",
-    "description": "This year's festival builds lots of excitement. Check out photos from the space, brands, and lots of fun.",
+    "title": "Stationery Fest News!",
+    "description": "Stationery Fest will be a fun event for everyone in the stationery community! Check here for the latest updates on the festival space, participating brands, workshops, exclusives, and other news.",
     "callToAction": {
-      "label": "Check latest updates",
+      "label": "Stationery Fest News",
       "link": "/news"
     }
   },
