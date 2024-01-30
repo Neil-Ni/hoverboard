@@ -87,7 +87,7 @@ export class PostPage extends ReduxMixin(PolymerElement) {
       </div>
 
       <about-event-block></about-event-block>
-      <subscribe-block></subscribe-block> 
+      <subscribe-block></subscribe-block>
       <footer-block></footer-block>
     `;
   }
