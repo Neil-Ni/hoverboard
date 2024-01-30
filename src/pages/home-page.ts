@@ -179,11 +179,10 @@ export class HomePage extends ReduxMixin(PolymerElement) {
               <iron-icon icon="hoverboard:movie"></iron-icon>
               [[viewHighlights]]
             </paper-button>
-<!--            TODO: re-enable ticket link -->
-<!--            <paper-button on-click="scrollToTickets" primary invert>-->
-<!--              <iron-icon icon="hoverboard:ticket"></iron-icon>-->
-<!--              [[buyTicket]]-->
-<!--            </paper-button>-->
+            <paper-button on-click="scrollToTickets" primary invert>
+              <iron-icon icon="hoverboard:ticket"></iron-icon>
+              [[buyTicket]]
+            </paper-button>
           </div>
 
           <div class="scroll-down" on-click="scrollNextBlock">
