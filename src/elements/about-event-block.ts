@@ -76,6 +76,8 @@ export class AboutEventBlock extends ReduxMixin(PolymerElement) {
               <h3>[[block.subTitle]]</h3>
 
               <short-markdown class="description" content="[[block.description]]"></short-markdown>
+              <short-markdown class="description" content="[[block.secondDescription]]"></short-markdown>
+              <short-markdown class="description" content="[[block.thirdDescription]]"></short-markdown>
 
               <template is="dom-if" if="[[block.callToAction.newTab]]">
                 <a href="[[block.callToAction.link]]" target="_blank" rel="noopener noreferrer">

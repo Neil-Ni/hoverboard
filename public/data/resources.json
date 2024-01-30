@@ -270,7 +270,7 @@
       {
         "title": "Dates",
         "subTitle": "August 7-9, 2024",
-        "description": "August 7, 2024 (Wes) 11pm - 7pm <br> August 8, 2024 (Thu) 11pm - 7pm <br> August 9, 2024 (Fri) 11pm - 7pm <br>"
+        "description": "Aug 7, 2024 (Wes) 11pm - 7pm <br> Aug 8, 2024 (Thu) 11pm - 7pm <br> Aug 9, 2024 (Fri) 11pm - 7pm <br>"
       },
       {
         "title": "Venue",
@@ -283,8 +283,10 @@
         }
       },
       {
-        "title": "Tickets",
-        "description": "August 7, 2024 (Wes) 11pm - 7pm <br> August 8, 2024 (Thu) 11pm - 7pm <br> August 9, 2024 (Fri) 11pm - 7pm <br>",
+        "title": "Ticket Prices",
+        "description": "Aug 7, 2024 (Wed) $25<span>&#42;</span> <br> Aug 8, 2024 (Thu) $20<span>&#42;</span><br> Aug 9, 2024 (Fri) $20<span>&#42;</span><br>",
+        "secondDescription": "Three Day Pass (Wed - Fri) $50<span>&#42;</span>",
+        "thirdDescription": "<span>&#42;</span>Ticket Prices At Door <br> $30, $25, $25 and $60<br>",
         "callToAction": {
           "newTab": true,
           "label": "Buy Ticket",
