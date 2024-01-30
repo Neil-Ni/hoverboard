@@ -4,4 +4,4 @@ At Stationery Fest, we will be bringing together stationery brands and working t
 
 Stationery Fest will be August 7-9, 2024. Tickets for entry and reservations for workshops and meetups will be available soon.
 
-Click here to pre-register and subscribe to receive updates. Hope to see you there!
+Click here to <a href="https://yosekastationery.com/products/stationery-fest-2024" rel="noopener noreferrer">pre-register</a> and subscribe to receive updates. Hope to see you there!
