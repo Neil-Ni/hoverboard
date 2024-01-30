@@ -187,9 +187,18 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
       ></filter-menu>
 
       <div layout horizontal center-justified style="margin-top: 50px">
-        <a href="https://5dvfzy5ysgo.typeform.com/to/vxNaK6Hr" rel="noopener noreferrer">
-          <paper-button primary>Apply to be an exhibitor</paper-button>
-        </a>
+        <div layout vertical center-center flex class="block">
+          <div>
+            <h2>Table Prices</h2>
+            <short-markdown class="description" content="Wall Table $250"></short-markdown>
+            <short-markdown class="description" content="Interior Table $200"></short-markdown>
+            <br>
+          </div>
+
+          <a href="https://5dvfzy5ysgo.typeform.com/to/vxNaK6Hr" rel="noopener noreferrer">
+            <paper-button primary>Apply to be an exhibitor</paper-button>
+          </a>
+        </div>
       </div>
 
 <!--      <content-loader-->
