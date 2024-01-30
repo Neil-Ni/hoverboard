@@ -81,6 +81,7 @@
     "schedule": {
       "title": "Schedule (TBD)",
       "metaDescription": "Choose your sessions to visit",
+      "description": "Meetups and workshops!",
       "background": {
         "color": "#fff"
       },

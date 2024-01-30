@@ -23,6 +23,7 @@ import { fetchSpeakers } from '../store/speakers/actions';
 import { initialSpeakersState, SpeakersState } from '../store/speakers/state';
 import { contentLoaders, heroSettings } from '../utils/data';
 import { updateMetadata } from '../utils/metadata';
+import '../elements/subscribe-block';
 
 @customElement('schedule-page')
 export class SchedulePage extends ReduxMixin(PolymerElement) {
@@ -70,6 +71,8 @@ export class SchedulePage extends ReduxMixin(PolymerElement) {
       </hero-block>
 
       <paper-progress indeterminate hidden$="[[!pending]]"></paper-progress>
+
+      <subscribe-block></subscribe-block>
 
       <filter-menu
         filter-groups="[[filterGroups]]"

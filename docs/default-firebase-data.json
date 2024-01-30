@@ -80,16 +80,34 @@
       "dateReadable": "August 7",
       "timeslots": [
         {
-          "endTime": "10:00",
+          "endTime": "11:00",
           "sessions": [
             {
               "items": ["132"]
             }
           ],
-          "startTime": "09:00"
+          "startTime": "10:00"
         },
         {
-          "endTime": "22:30",
+          "endTime": "14:00",
+          "sessions": [
+            {
+              "items": ["141"]
+            }
+          ],
+          "startTime": "12:00"
+        },
+        {
+          "endTime": "17:30",
+          "sessions": [
+            {
+              "items": ["140"]
+            }
+          ],
+          "startTime": "16:00"
+        },
+        {
+          "endTime": "20:30",
           "sessions": [
             {
               "items": ["137"]
@@ -100,13 +118,7 @@
       ],
       "tracks": [
         {
-          "title": "Expo hall"
-        },
-        {
-          "title": "Conference hall"
-        },
-        {
-          "title": "Workshops hall"
+          "title": "mezzanine"
         }
       ]
     },
@@ -115,13 +127,22 @@
       "dateReadable": "August 8",
       "timeslots": [
         {
-          "endTime": "10:10",
+          "endTime": "11:00",
           "sessions": [
             {
               "items": ["132"]
             }
           ],
-          "startTime": "09:30"
+          "startTime": "10:00"
+        },
+        {
+          "endTime": "14:00",
+          "sessions": [
+            {
+              "items": ["141"]
+            }
+          ],
+          "startTime": "12:00"
         },
         {
           "endTime": "17:30",
@@ -130,18 +151,21 @@
               "items": ["140"]
             }
           ],
-          "startTime": "16:50"
+          "startTime": "16:00"
+        },
+        {
+          "endTime": "20:30",
+          "sessions": [
+            {
+              "items": ["137"]
+            }
+          ],
+          "startTime": "18:30"
         }
       ],
       "tracks": [
         {
-          "title": "Expo hall"
-        },
-        {
-          "title": "Conference hall"
-        },
-        {
-          "title": "Workshops hall"
+          "title": "mezzanine"
         }
       ]
     },
@@ -159,31 +183,43 @@
           "startTime": "09:30"
         },
         {
+          "endTime": "14:00",
+          "sessions": [
+            {
+              "items": ["141"]
+            }
+          ],
+          "startTime": "12:00"
+        },
+        {
           "endTime": "17:30",
           "sessions": [
             {
               "items": ["140"]
             }
           ],
-          "startTime": "16:50"
+          "startTime": "16:00"
+        },
+        {
+          "endTime": "20:30",
+          "sessions": [
+            {
+              "items": ["137"]
+            }
+          ],
+          "startTime": "18:30"
         }
       ],
       "tracks": [
         {
-          "title": "Expo hall"
-        },
-        {
-          "title": "Conference hall"
-        },
-        {
-          "title": "Workshops hall"
+          "title": "mezzanine"
         }
       ]
     }
   },
   "sessions": {
     "132": {
-      "description": "Get your badge",
+      "description": "Get your ticket",
       "icon": "registration",
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
       "title": "Registration"
@@ -195,9 +231,14 @@
       "title": "Afterparty"
     },
     "140": {
-      "description": "TBD",
-      "language": "English",
-      "title": "TBD"
+      "description": "Workshop TBD",
+      "language": "Workshop",
+      "title": "Workshop TBD"
+    },
+    "141": {
+      "description": "Meetup TBD",
+      "language": "Meetup",
+      "title": "Meetup TBD"
     }
   },
   "speakers": {
