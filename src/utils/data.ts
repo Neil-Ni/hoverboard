@@ -49,7 +49,8 @@ export {
   title,
   image,
   viewHighlights,
-  about
+  about,
+  ticketUrl
 } from '../../public/data/resources.json';
 export {
   contentLoaders,

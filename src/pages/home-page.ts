@@ -32,6 +32,7 @@ import {
   showForkMeBlockForProjectIds,
   title,
   viewHighlights,
+  ticketUrl,
 } from '../utils/data';
 import '../utils/icons';
 import { INCLUDE_SITE_TITLE, updateMetadata } from '../utils/metadata';
@@ -179,9 +180,9 @@ export class HomePage extends ReduxMixin(PolymerElement) {
               <iron-icon icon="hoverboard:movie"></iron-icon>
               [[viewHighlights]]
             </paper-button>
-            <paper-button on-click="scrollToTickets" primary invert>
+            <paper-button target="_blank" primary invert>
               <iron-icon icon="hoverboard:ticket"></iron-icon>
-              [[buyTicket]]
+              <a href="[[ticketUrl]]" target="_blank">[[buyTicket]]</a>
             </paper-button>
           </div>
 
@@ -275,6 +276,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
   private dates = dates;
   private viewHighlights = viewHighlights;
   private buyTicket = buyTicket;
+  private ticketUrl: string = ticketUrl;
   private heroSettings = heroSettings.home;
   private aboutBlock = aboutBlock;
 
