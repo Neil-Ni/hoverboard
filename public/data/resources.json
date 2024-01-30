@@ -254,9 +254,39 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+        "description": "",
         "callToAction": {
           "label": "Open team page",
+          "link": "/team"
+        }
+      }
+    ]
+  },
+  "aboutEventBlock": {
+    "eventTitle": "Stationery Fest 2024",
+    "image": "/images/backgrounds/loft_outside.jpg",
+    "blocks": [
+      {
+        "title": "Dates",
+        "subTitle": "August 7-9, 2024",
+        "description": "August 7, 2024 (Wes) 11pm - 7pm <br> August 8, 2024 (Thu) 11pm - 7pm <br> August 9, 2024 (Fri) 11pm - 7pm <br>"
+      },
+      {
+        "title": "Venue",
+        "subTitle": "The Greenpoint Loft",
+        "description": "67 West St, Brooklyn, NY 11222",
+        "callToAction": {
+          "newTab": true,
+          "label": "Google Map",
+          "link": "https://maps.app.goo.gl/MWbvzBHfSX2xuJSR7"
+        }
+      },
+      {
+        "title": "Tickets",
+        "description": "August 7, 2024 (Wes) 11pm - 7pm <br> August 8, 2024 (Thu) 11pm - 7pm <br> August 9, 2024 (Fri) 11pm - 7pm <br>",
+        "callToAction": {
+          "newTab": true,
+          "label": "Buy Ticket",
           "link": "/team"
         }
       }

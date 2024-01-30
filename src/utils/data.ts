@@ -1,6 +1,7 @@
 export {
   aboutBlock,
   aboutOrganizerBlock,
+  aboutEventBlock,
   addToHomeScreen,
   blog,
   bookmarked,
