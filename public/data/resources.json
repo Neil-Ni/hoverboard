@@ -14,7 +14,7 @@
   "buyTicket": "Buy ticket",
   "signIn": "Sign in",
   "signOut": "Sign out",
-  "viewHighlights": "See Stationery Fest 2024 Space",
+  "viewHighlights": "More About Stationery Fest",
   "offlineMessage": "You can still work offline.",
   "serviceWorkerInstalled": "App is now installed and available offline.",
   "serviceWorkerAvailable": "A new version of this app is available.",
@@ -73,16 +73,16 @@
     ]
   },
   "aboutBlock": {
-    "title": "About",
+    "title": "Stationery Fest",
     "callToAction": {
       "featuredSessions": {
-        "description": "Yoseka Stationery was built around the goal of creating a unique experience of trying out your stationery and forming your own opinions on the creative tools we use everyday, all within a community of individuals who share your passion.\n\nAt Stationery Fest, we will be bringing together stationery brands and working together with these brands to create experiences that will allow you to learn about each brand’s mission and story, and how these are reflected in their products. Through interactive workshops centered around customization, and community-building social events such as meetups, we hope to bring more people in the passionate and wonderful stationery community together, and empower more people to find the perfect creative tools for themselves.\n\nStationery Fest will be August 7-9, 2024. Tickets for entry and reservations for workshops and meetups will be available soon.",
+        "description": "At Stationery Fest, we will be bringing together stationery brands and working together with these brands to create experiences that will allow you to learn about each brand’s mission and story, and how these are reflected in their products. Through interactive workshops centered around customization, and community-building social events such as meetups, we hope to bring more people in the passionate and wonderful stationery community together, and empower more people to find the perfect creative tools for themselves.",
         "label": "Explore featured session",
         "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
       },
       "howItWas": {
-        "description": "Our team creates Stationery Fest to be the best place for experience sharing in a phenomenal atmosphere.",
-        "label": "See Stationery Fest 2024 Space",
+        "description": "",
+        "label": "More About Stationery Fest",
         "youtubeId": "kNKlt_z69qI"
       }
     },
@@ -173,8 +173,8 @@
   },
   "subscribeBlock": {
     "callToAction": {
-      "description": "Get notified about the important updates",
-      "label": "Subscribe to Stationery Fest 2024 updates"
+      "description": "Stay up to date with Stationery Fest!",
+      "label": "Subscribe to Stationery Fest Updates"
     },
     "yourEmail": "Your email",
     "emailAddress": "Email Address",
