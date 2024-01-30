@@ -25,6 +25,8 @@ import { initialSpeakersState } from '../store/speakers/state';
 import { contentLoaders, heroSettings } from '../utils/data';
 import '../utils/icons';
 import { updateMetadata } from '../utils/metadata';
+import '../elements/about-event-block';
+import '../elements/subscribe-block';
 
 @customElement('speakers-page')
 export class SpeakersPage extends ReduxMixin(PolymerElement) {
@@ -262,6 +264,8 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
 
 <!--      <previous-speakers-block></previous-speakers-block>-->
 
+      <about-event-block></about-event-block>
+      <subscribe-block></subscribe-block>
       <footer-block></footer-block>
     `;
   }

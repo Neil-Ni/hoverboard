@@ -16,6 +16,8 @@ import { ReduxMixin } from '../store/mixin';
 import { blog } from '../utils/data';
 import { getDate } from '../utils/dates';
 import { updateImageMetadata } from '../utils/metadata';
+import '../elements/about-event-block';
+import '../elements/subscribe-block';
 
 // TODO: loading message
 
@@ -84,6 +86,8 @@ export class PostPage extends ReduxMixin(PolymerElement) {
         </div>
       </div>
 
+      <about-event-block></about-event-block>
+      <subscribe-block></subscribe-block> 
       <footer-block></footer-block>
     `;
   }

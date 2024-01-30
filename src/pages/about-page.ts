@@ -6,7 +6,7 @@ import '../elements/footer-block';
 import { about, heroSettings } from '../utils/data';
 import { updateMetadata } from '../utils/metadata';
 import '../elements/subscribe-block';
-
+import '../elements/about-event-block';
 @customElement('about-page')
 export class FaqPage extends PolymerElement {
   static get template() {
@@ -21,6 +21,7 @@ export class FaqPage extends PolymerElement {
 
       <remote-markdown toc path="[[source]]"></remote-markdown>
 
+      <about-event-block></about-event-block>
       <subscribe-block></subscribe-block>
       <footer-block></footer-block>
     `;

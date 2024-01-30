@@ -24,7 +24,7 @@ import { initialSpeakersState, SpeakersState } from '../store/speakers/state';
 import { contentLoaders, heroSettings } from '../utils/data';
 import { updateMetadata } from '../utils/metadata';
 import '../elements/subscribe-block';
-
+import '../elements/about-event-block';
 @customElement('schedule-page')
 export class SchedulePage extends ReduxMixin(PolymerElement) {
   static get template() {
@@ -101,6 +101,7 @@ export class SchedulePage extends ReduxMixin(PolymerElement) {
         <slot></slot>
       </div>
 
+      <about-event-block></about-event-block>
       <footer-block></footer-block>
     `;
   }

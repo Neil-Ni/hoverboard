@@ -20,6 +20,7 @@ import { contentLoaders, heroSettings } from '../utils/data';
 import { getDate } from '../utils/dates';
 import { updateMetadata } from '../utils/metadata';
 import '../elements/subscribe-block';
+import '../elements/about-event-block';
 
 @customElement('blog-list-page')
 export class BlogListPage extends ReduxMixin(PolymerElement) {
@@ -162,6 +163,7 @@ export class BlogListPage extends ReduxMixin(PolymerElement) {
         <posts-list posts="[[posts.data]]"></posts-list>
       </div>
 
+      <about-event-block></about-event-block>
       <subscribe-block></subscribe-block>
 
       <footer-block></footer-block>
