@@ -79,26 +79,26 @@ export class SchedulePage extends ReduxMixin(PolymerElement) {
         selected-filters="[[selectedFilters]]"
       ></filter-menu>
 
-      <div class="container">
-        <content-loader
-          card-padding="15px"
-          card-margin="16px 0"
-          card-height="140px"
-          avatar-size="0"
-          avatar-circle="0"
-          title-top-position="20px"
-          title-height="42px"
-          title-width="70%"
-          load-from="-20%"
-          load-to="80%"
-          blur-width="300px"
-          items-count="[[contentLoaders.itemsCount]]"
-          hidden$="[[!pending]]"
-          layout
-        >
-        </content-loader>
+<!--      <div class="container">-->
+<!--        <content-loader-->
+<!--          card-padding="15px"-->
+<!--          card-margin="16px 0"-->
+<!--          card-height="140px"-->
+<!--          avatar-size="0"-->
+<!--          avatar-circle="0"-->
+<!--          title-top-position="20px"-->
+<!--          title-height="42px"-->
+<!--          title-width="70%"-->
+<!--          load-from="-20%"-->
+<!--          load-to="80%"-->
+<!--          blur-width="300px"-->
+<!--          items-count="[[contentLoaders.itemsCount]]"-->
+<!--          hidden$="[[!pending]]"-->
+<!--          layout-->
+<!--        >-->
+<!--        </content-loader>-->
 
-        <slot></slot>
+<!--        <slot></slot>-->
       </div>
 
       <about-event-block></about-event-block>
